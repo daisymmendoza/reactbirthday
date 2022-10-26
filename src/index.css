@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.birthdaySection {
+  width: 25%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  background-color: rgb(167, 191, 234);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px gray;
+}
+
+h3 {
+  text-align: center;
+}
+
+img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: -15px;
+}
+
+h4 {
+  margin-bottom: -15px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+
+button {
+  width: 100%;
+  height: auto;
+  border: 3px solid rgb(74, 104, 164);
+  border-radius: 7px;
+  padding: 10px;
+  background-color: rgb(74, 104, 164);
+  color: white;
+  font-size: 1em;
+}
+
+button:hover {
+  border: 3px solid rgb(74, 104, 164);
+  background-color: rgb(167, 191, 234);
+  color: black;
+  cursor: pointer;
+}
